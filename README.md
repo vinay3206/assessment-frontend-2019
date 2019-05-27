@@ -2,6 +2,8 @@
 
 You should spend no more than **4 hours** on this test assignment.
 
+When you are done with the test, please send a link to your repo to your recruiter.  Thank you for your time and interest in Slate!
+
 ## Description
 
 For this test assignment, you will have to create your own simple state management library like Redux or MobX to handle events and store data across the application.
