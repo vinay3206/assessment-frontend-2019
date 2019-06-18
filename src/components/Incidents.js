@@ -1,9 +1,16 @@
-import React, { Component } from 'react'
+import React, { Component, Fragment } from 'react'
 import { Incident } from './Incident'
 
 export class Incidents extends Component {
   render() {
-    return <Incident />
+    const { incidents } = this.props
+    return (
+      <Fragment>
+        {incidents.map(incident => (
+          <Incident {...incident} key={incident.id} />
+        ))}
+      </Fragment>
+    )
   }
 }
 

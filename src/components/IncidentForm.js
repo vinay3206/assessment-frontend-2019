@@ -4,7 +4,7 @@ import { Redirect } from 'react-router-dom'
 
 const options = [
   { key: 'Pending', text: 'Pending', value: 'Pending' },
-  { key: 'Resolve', text: 'Resolve', value: 'Resolve' },
+  { key: 'Resolved', text: 'Resolved', value: 'Resolved' },
   { key: 'New', text: 'New', value: 'New' },
   { key: 'Closed', text: 'Closed', value: 'Closed' },
 ]
