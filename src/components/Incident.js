@@ -6,13 +6,16 @@ import COLORS from '../colors'
 const StyledIcon = styled(Icon)`
   float: right;
 `
+const StyledContent = styled(Card.Content)`
+  line-height: 2.1em;
+`
 
 export class Incident extends Component {
   render() {
     const { title, assignee, description, status } = this.props
     return (
       <Card color={COLORS[status.toUpperCase()]}>
-        <Card.Content>
+        <StyledContent>
           <StyledIcon size="big" name="idea" />
           <Card.Header>{title}</Card.Header>
           <Card.Meta>
@@ -27,7 +30,7 @@ export class Incident extends Component {
             </div>
             {description}
           </Card.Description>
-        </Card.Content>
+        </StyledContent>
         <Card.Content extra>
           <div className="ui two buttons">
             <Button basic color="green">
