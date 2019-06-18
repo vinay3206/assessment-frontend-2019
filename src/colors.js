@@ -1,0 +1,9 @@
+export default {
+  HEADER_BACKGROUND: '#242121',
+  ERROR: '#f03333',
+  WARNING: '#f68520',
+  SUCCESS: '#3dc140',
+  LIGHT_PRIMARY: '#f68520',
+  LIGHT_RED: '#f03333',
+  LIGHT_GREEEN: '#3dc140',
+}

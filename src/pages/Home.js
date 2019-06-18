@@ -1,19 +1,6 @@
-import React        from 'react'
-import { Incident } from '../components/Incident'
+import React from 'react'
+import { Incidents } from '../components/Incidents'
 
-export function Home () {
-  return (
-    <div>
-      <Incident
-        title="Test incident"
-        assignee="Admin"
-        status="Resolved"
-      />
-      <Incident
-        title="Another incident"
-        assignee="Engineer"
-        status="Acknowledged"
-      />
-    </div>
-  )
+export function Home() {
+  return Incidents
 }
